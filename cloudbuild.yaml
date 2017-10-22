@@ -6,4 +6,5 @@ steps:
     args: ["build", "-t", "gcr.io/bbb-feo-77124/gcp-cd-codelab:$REVISION_ID", "-f", "Dockerfile", "."]
 images:
   - "gcr.io/bbb-feo-77124/gcp-cd-codelab:$REVISION_ID"
+ 
   
